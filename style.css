@@ -1,0 +1,108 @@
+/* shared styles  */
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+.btn-primery {
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    border: none;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* header styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #131313;
+    font-size: 2.9rem;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+
+    text-align: center;
+    font-size: 1.3rem; 
+    font-weight: 500;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* bannar style */
+.bannar-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bannar-title {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.bannar-discription {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bannar img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+/* responsive styles */
+
+/* mobile devices  */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    
+    nav{
+        flex-direction: column;
+    }
+
+   
+}
+
+/* tablet devices or medium devices */
+
+@media screen and (min-width : 576px) and (max-width: 960px) {
+    header{
+        padding: 50px;
+    }
+
+
+    nav{
+        flex-direction: column;
+    }
+    
+}
